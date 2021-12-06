@@ -4,8 +4,6 @@
  * COMPONENTES
  * 1. IMPORTACIONES
  */
-
- 
  import './App.css';
  import Header from './components/Header'
  import Footer from './components/Footer'
@@ -25,23 +23,20 @@
    // HTML + JS = JSX
    return ( 
      <div className="App">
+       <Header nombre="Mike" ciudad="Veracruz" />
        <p>Hola mundo</p>
        <p>Mike Nieva</p>
        <p>{12*12}</p>
        <p>{bootcamp}</p>
+             
+       {/* <Header nombre="Sam" ciudad="EdoMex" />
+       <Header nombre="K'onhin" ciudad="Hidalgo" /> */}
  
+       <hr />
  
-       <Header nombre="Mike" ciudad="Veracruz" />
-       <Header nombre="Sam" ciudad="EdoMex" />
-       <Header nombre="K'onhin" ciudad="Hidalgo" />
+       <Main />
  
-
-      <hr />
-
-      <Main />
-
-      <hr />
-
+       <hr />
        <Footer nombre="Anahí" email="hola@hola.com" />
  
  
